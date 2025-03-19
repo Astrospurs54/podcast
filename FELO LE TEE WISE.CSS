@@ -1,0 +1,340 @@
+<<<<<<< HEAD
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    z-index: 2;
+    min-height: 250vh;
+}
+.hero-sec{
+    width: 100%;
+    height: 50vh;
+ background: url(assets/pics/art-work/felo_le_tee/WISE.png);
+ background-repeat: no-repeat;
+ background-size: 100% 100% ;
+ background-position: fixed;
+ object-fit: cover;
+ z-index: 1;
+ position: relative;
+}
+.hero-sec::after{
+    content: '' ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:linear-gradient(360deg ,#000000 20% ,transparent );
+}
+h1{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    opacity: 70%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, #000 40% ,transparent);
+
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 40px;
+}
+.container{
+   
+    height: 100%;
+}
+.Albums{
+    opacity: 100%;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    color: aliceblue;
+   
+}
+.box-container{
+    width:90%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+
+}
+.album-image{
+    width: 70px;
+    border-radius: 10px;
+    height: 70px;
+}
+.album-image img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+.album-title{
+    margin-left: 20px;
+    text-align: center;
+    height: 70px;
+    padding: 20px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 2px solid white;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px
+}
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.btn:hover{
+    transform: scale(1.3);
+    transition:.5s ease-in-out ;
+    cursor: pointer;
+    
+}
+.box-container p{
+    color: aliceblue;
+    text-decoration: none;
+}
+.box-container a {
+    text-decoration: none;
+}
+.audio{
+    width: 100%;
+    outline: none;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+   
+    
+}
+.music-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 8rem;
+    margin: 2rem;
+    width: 80%;
+    overflow: hidden;
+    background: linear-gradient(180deg ,#000 40%, #868585);
+    border-radius:1rem;
+    box-shadow:0 .5rem 1rem #000 ;
+    align-items: center;
+    position: relative;
+   border: 4px;
+   margin: 5px auto;
+}
+.audio::-webkit-media-controls-enclosure{
+    background:none;
+
+}
+
+@media (min-width:600px){
+    .audio{
+        width: 80%;
+        left: 10%;
+    }
+    .music-container{
+        width:60% ;
+       margin: 10px auto;
+    }
+    
+        
+    
+=======
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    z-index: 2;
+    min-height: 250vh;
+}
+.hero-sec{
+    width: 100%;
+    height: 50vh;
+ background: url(assets/pics/art-work/felo_le_tee/WISE.png);
+ background-repeat: no-repeat;
+ background-size: 100% 100% ;
+ background-position: fixed;
+ object-fit: cover;
+ z-index: 1;
+ position: relative;
+}
+.hero-sec::after{
+    content: '' ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:linear-gradient(360deg ,#000000 20% ,transparent );
+}
+h1{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    opacity: 70%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, #000 40% ,transparent);
+
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 40px;
+}
+.container{
+   
+    height: 100%;
+}
+.Albums{
+    opacity: 100%;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    color: aliceblue;
+   
+}
+.box-container{
+    width:90%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+
+}
+.album-image{
+    width: 70px;
+    border-radius: 10px;
+    height: 70px;
+}
+.album-image img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+.album-title{
+    margin-left: 20px;
+    text-align: center;
+    height: 70px;
+    padding: 20px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 2px solid white;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px
+}
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.btn:hover{
+    transform: scale(1.3);
+    transition:.5s ease-in-out ;
+    cursor: pointer;
+    
+}
+.box-container p{
+    color: aliceblue;
+    text-decoration: none;
+}
+.box-container a {
+    text-decoration: none;
+}
+.audio{
+    width: 100%;
+    outline: none;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+   
+    
+}
+.music-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 8rem;
+    margin: 2rem;
+    width: 80%;
+    overflow: hidden;
+    background: linear-gradient(180deg ,#000 40%, #868585);
+    border-radius:1rem;
+    box-shadow:0 .5rem 1rem #000 ;
+    align-items: center;
+    position: relative;
+   border: 4px;
+   margin: 5px auto;
+}
+.audio::-webkit-media-controls-enclosure{
+    background:none;
+
+}
+
+@media (min-width:600px){
+    .audio{
+        width: 80%;
+        left: 10%;
+    }
+    .music-container{
+        width:60% ;
+       margin: 10px auto;
+    }
+    
+        
+    
+>>>>>>> 877ff9f2b19b9da6b3264801862f84c465497fa8
+}
